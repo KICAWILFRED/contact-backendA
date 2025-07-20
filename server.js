@@ -8,7 +8,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 app.use(cors({
-  origin: 'https://project-a1-one.vercel.app'
+  origin: 'https://project-a1-one.vercel.app',
  // 👈 replace with your real frontend URL
 }));
 app.use(bodyParser.json());
